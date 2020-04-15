@@ -66,11 +66,11 @@ public function creation(){
   
 }
 
+
+
 public function decreaseVie(){
     $this->_viePerso = $this->_viePerso -5;
-    echo "Vous avez maintenant $this->_viePerso hp. ";
-
-
+    echo "Vous avez maintenant $this->_viePerso hp. <br>";
 }
 
 
